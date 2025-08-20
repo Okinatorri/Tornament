@@ -1,0 +1,172 @@
+.galogramsContent {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 90px 40px 40px;
+
+    position: relative;
+}
+
+.playerNames {
+    position: absolute;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bansContainer {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.picks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.chars {
+    display: flex;
+    justify-content: center; // between???
+    gap: 60px;
+}
+
+.playerChars {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+
+    width: 580px;
+}
+
+.chsrsGal {
+    margin-top: 55px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.titleGold {
+    font-size: 50px;
+    text-shadow: var(--gold-shadow-1px);
+}
+
+.titleRed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: var(--red-shadow-1px);
+}
+
+.titlePurple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: var(--purple-shadow-1px);
+}
+
+.subtitleRed {
+    font-size: 30px;
+    text-shadow: var(--red-shadow-1px);
+}
+
+.subtitlePurple {
+    font-size: 30px;
+    text-shadow: var(--purple-shadow-1px);
+}
+
+.scoreBars {
+    display: flex;
+    gap: 20px;
+}
+
+.bar {
+    width: 250px;
+    height: 7px;
+    border: 1px solid var(--gold-color);
+    border-radius: 10px;
+    box-shadow: var(--gold-shadow-2px);
+}
+
+.filled {
+    background-color: var(--gold-color);
+}
+
+// ============
+
+.playerTable {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 600px;
+}
+
+.addButtonContainer {
+    position: relative;
+}
+
+.dropdownLeft {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+    background-color: rgba(0, 0, 0, 1);
+
+    position: absolute;
+    right: 100%;
+    top: 0;
+    z-index: 10;
+
+    border: 1px solid var(--blue-color);
+    border-radius: 4px;
+    overflow-y: auto;
+    width: 300px;
+}
+
+.dropdownRight {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+    background-color: rgba(0, 0, 0, 1);
+
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 10;
+
+    border: 1px solid var(--blue-color);
+    border-radius: 4px;
+    overflow-y: auto;
+    width: 300px;
+}

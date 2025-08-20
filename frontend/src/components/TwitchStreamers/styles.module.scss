@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+
+    padding-right: 20px;
+}
+
+.streamers {
+    a {
+        &,
+        &:visited,
+        &:hover,
+        &:active {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+}
+
+.firstName {
+    font-size: 26px;
+    font-family: "Colus";
+
+    text-shadow: var(--blue-shadow-1\5px);
+}
+
+.secondName {
+    font-size: 26px;
+    font-family: "Colus";
+
+    text-shadow: var(--purple-shadow-1\5px);
+}

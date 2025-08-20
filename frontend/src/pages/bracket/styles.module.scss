@@ -1,0 +1,110 @@
+.bracketContainer {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+}
+
+.bracketContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../images/bg/about.png");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(2px);
+}
+
+.bracketContent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    & > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    & > div > div > div {
+        z-index: 1;
+    }
+
+    & > div > div > div > div {
+        padding: 0.1em 1.5em;
+
+        @media (min-height: 900px) {
+            padding: 0.4em 1.5em;
+        }
+        @media (min-height: 1000px) {
+            padding: 0.5em 1.5em;
+        }
+        @media (min-height: 1200px) {
+            padding: 0.8em 1.5em;
+        }
+        @media (min-height: 1300px) {
+            padding: 1em 1.5em;
+        }
+        @media (min-height: 1400px) {
+            padding: 1.3em 1.5em;
+        }
+
+        & > div {
+            // font-family: "AG";
+            box-shadow: var(--purple-shadow-1px);
+        }
+
+        & > div {
+            font-family: "AG";
+        }
+
+        & > div > div > div {
+            // font-family: "AG";
+            padding: 0.2rem 0.5rem;
+
+            & > div > div > div > div {
+            }
+        }
+    }
+}
+
+.noActiveContent {
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+    z-index: 1;
+}
+
+.noActiveText {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.historyButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.historyButton:hover {
+    background-color: #0056b3;
+}
+
+.streamers {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}

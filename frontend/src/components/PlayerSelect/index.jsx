@@ -1,0 +1,92 @@
+import React, { useState, useEffect, useRef } from "react";
+import styles from "./styles.module.scss";
+
+const PlayerSelect = ({
+    label = "",
+    labelPos = "V",
+    options = [],
+    value,
+    onChange,
+    placeholder = "",
+    disabled,
+    style = {},
+    fontSize = 14, // Default font size
+}) => {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState("");
+    const dropdownRef = useRef(null);
+
+    const filteredOptions = options.filter((option) =>
+        option.display_name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    const handleSelect = (selectedOption) => {
+        onChange(selectedOption);
+        setSearchTerm(selectedOption.display_name);
+        setIsDropdownOpen(false);
+    };
+
+    const handleClickOutside = (event) => {
+        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+            setIsDropdownOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
+    useEffect(() => {
+        if (value && options.length) {
+            const selectedOption = options.find((opt) =>
+                typeof value === "string" ? opt.username === value : opt.username === value?.username
+            );
+            if (selectedOption) {
+                setSearchTerm(selectedOption.display_name);
+            }
+        }
+    }, [value, options]);
+
+    return (
+        <div className={labelPos === "V" ? styles.lableVert : styles.labelHor}>
+            {label && <label style={{ cursor: "default", fontSize: `${fontSize}px` }}>{label}:</label>}
+            <div ref={dropdownRef} className={styles.dropdown} style={style}>
+                <input
+                    type="text"
+                    value={searchTerm}
+                    onChange={(e) => {
+                        setSearchTerm(e.target.value);
+                        setIsDropdownOpen(true);
+                    }}
+                    onFocus={() => setIsDropdownOpen(true)}
+                    placeholder={placeholder}
+                    disabled={disabled}
+                    className={styles.searchInput}
+                    style={{
+                        fontSize: `${fontSize}px`,
+                        textAlign: "center", // Center the text
+                    }}
+                />
+                {isDropdownOpen && filteredOptions.length > 0 && (
+                    <ul className={styles.menu}>
+                        {filteredOptions.map((option) => (
+                            <li
+                                key={option.username}
+                                onClick={() => handleSelect(option)}
+                                className={styles.menuItem}
+                                style={{ fontSize: `${fontSize}px` }}
+                            >
+                                {option.display_name}
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </div>
+        </div>
+    );
+};
+
+export default PlayerSelect;

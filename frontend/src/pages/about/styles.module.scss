@@ -1,0 +1,80 @@
+.aboutContainer {
+    height: 100vh;
+    background-image: url("../../images/bg/about.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    // padding: 0 2vh;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9vw; // Адаптивный размер относительно ширины viewport
+    -webkit-text-stroke: 2px black; // Адаптивная толщина обводки
+    text-shadow: var(--purple-shadow-1\5px);
+    letter-spacing: 0.3vw;
+    margin-top: 5vw;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.demonImage {
+    width: 15vw;
+    height: 15vw;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 0.5vw;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.firstName,
+.secondName {
+    font-size: 3vw;
+    font-family: "Colus";
+
+    @media (max-width: 768px) {
+        font-size: 5vw;
+    }
+}
+
+.firstName {
+    text-shadow: var(--blue-shadow-1\5px);
+}
+
+.secondName {
+    text-shadow: var(--purple-shadow-1\5px);
+}
+
+.twitchImage {
+    width: 4vw;
+    height: 4vw;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 150px;
+    max-height: 150px;
+}

@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-04-29 21:47+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/rules/index.jsx:153
+msgid "1st restart — free"
+msgstr "1st restart — free"
+
+#: src/pages/rules/index.jsx:156
+msgid "2nd restart — +5 seconds"
+msgstr "2nd restart — +5 seconds"
+
+#: src/pages/rules/index.jsx:159
+msgid "3rd restart — +10 seconds"
+msgstr "3rd restart — +10 seconds"
+
+#: src/components/Header/index.jsx:53
+msgid "ABOUT"
+msgstr "ABOUT"
+
+#: src/components/Header/index.jsx:86
+msgid "ADMIN CONSOLE"
+msgstr "ADMIN CONSOLE"
+
+#: src/pages/rules/index.jsx:79
+msgid "After successful login, in the PARTICIPATE tab you need to add all the characters you plan to play (character level, number of chains), as well as weapons (level, rank), click the \"Sent\" button"
+msgstr "After successful login, in the PARTICIPATE tab you need to add all the characters you plan to play (character level, number of chains), as well as weapons (level, rank), click the \"Sent\" button"
+
+#: src/pages/rules/index.jsx:44
+msgid "After successful registration account cannot be changed and transferred between participants within one tournament."
+msgstr "After successful registration account cannot be changed and transferred between participants within one tournament."
+
+#: src/pages/rules/index.jsx:70
+msgid "Apply for Participation"
+msgstr "Apply for Participation"
+
+#: src/pages/rules/index.jsx:52
+msgid "Applying for participation:"
+msgstr "Applying for participation:"
+
+#: src/pages/rules/index.jsx:138
+msgid "At the beginning of each round, players alternate banning and picking characters from their account pool. This ban-pick phase resets each round;"
+msgstr "At the beginning of each round, players alternate banning and picking characters from their account pool. This ban-pick phase resets each round;"
+
+#: src/pages/rules/index.jsx:126
+msgid "At the start of each match, players take turns banning one hologram and picking one for Round 1 and Round 2;"
+msgstr "At the start of each match, players take turns banning one hologram and picking one for Round 1 and Round 2;"
+
+#: src/pages/player/index.jsx:213
+msgid "CHARACTERS"
+msgstr "CHARACTERS"
+
+#: src/pages/history/index.jsx:165
+msgid "Choose Tournament from list"
+msgstr "Choose Tournament from list"
+
+#: src/pages/bracket/index.jsx:82
+msgid "Currently there are no active tournaments"
+msgstr "Currently there are no active tournaments"
+
+#: src/pages/rules/index.jsx:88
+msgid "Different pairs of players will be broadcast simultaneously on Twitch channels:"
+msgstr "Different pairs of players will be broadcast simultaneously on Twitch channels:"
+
+#: src/pages/rules/index.jsx:56
+msgid "Fill the <0>Google-form</0>"
+msgstr "Fill the <0>Google-form</0>"
+
+#: src/pages/history/state.js:145
+#: src/pages/bracket/state.js:145
+#~ msgid "Final"
+#~ msgstr "Final"
+
+#: src/components/Header/index.jsx:62
+msgid "HISTORY"
+msgstr "HISTORY"
+
+#: src/pages/rules/index.jsx:73
+msgid "If your application is approved, you will be given an account to sing in the Tempest Cup tournament website"
+msgstr "If your application is approved, you will be given an account to sing in the Tempest Cup tournament website"
+
+#: src/pages/participate/index.jsx:104
+msgid "Invalid nickname or password"
+msgstr "Invalid nickname or password"
+
+#: src/pages/participate/index.jsx:90
+msgid "Join Us!"
+msgstr "Join Us!"
+
+#: src/pages/player/index.jsx:299
+msgid "Loading"
+msgstr "Loading"
+
+#: src/pages/history/index.jsx:155
+msgid "Loading tournaments..."
+msgstr "Loading tournaments..."
+
+#: src/pages/participate/index.jsx:117
+msgid "log in"
+msgstr "log in"
+
+#: src/pages/rules/index.jsx:110
+msgid "Matches conduct:"
+msgstr "Matches conduct:"
+
+#: src/pages/player/index.jsx:274
+msgid "nickname"
+msgstr "nickname"
+
+#: src/pages/history/index.jsx:171
+msgid "No games for this tournament"
+msgstr "No games for this tournament"
+
+#: src/pages/player/index.jsx:303
+msgid "No screenshots yet"
+msgstr "No screenshots yet"
+
+#: src/pages/history/index.jsx:16
+#~ msgid "No tournament history found"
+#~ msgstr "No tournament history found"
+
+#: src/pages/not-found/index.jsx:16
+msgid "Page not found"
+msgstr "Page not found"
+
+#: src/pages/participate/index.jsx:95
+msgid "participate"
+msgstr "participate"
+
+#: src/components/Header/index.jsx:70
+msgid "PARTICIPATE"
+msgstr "PARTICIPATE"
+
+#: src/pages/rules/index.jsx:41
+msgid "Participation from mobile devices is not allowed."
+msgstr "Participation from mobile devices is not allowed."
+
+#: src/pages/rules/index.jsx:144
+msgid "Players may not pick previously banned or used (non-immune) characters within the same round. Rover (Spectro, Havoc, Aero) are treated as separate characters"
+msgstr "Players may not pick previously banned or used (non-immune) characters within the same round. Rover (Spectro, Havoc, Aero) are treated as separate characters"
+
+#: src/pages/rules/index.jsx:150
+msgid "Players may restart the fight up to three times per round:"
+msgstr "Players may restart the fight up to three times per round:"
+
+#: src/components/Footer/index.jsx:10
+msgid "prize money"
+msgstr "prize money"
+
+#: src/pages/history/state.js:143
+#: src/pages/bracket/state.js:143
+#~ msgid "Quarterfinals"
+#~ msgstr "Quarterfinals"
+
+#: src/pages/rules/index.jsx:29
+msgid "Required conditions for participation in the tournament:"
+msgstr "Required conditions for participation in the tournament:"
+
+#: src/pages/history/state.js:142
+#: src/pages/bracket/state.js:142
+#~ msgid "Round of 16"
+#~ msgstr "Round of 16"
+
+#: src/pages/history/state.js:136
+#: src/pages/bracket/state.js:136
+#~ msgid "Round of 32"
+#~ msgstr "Round of 32"
+
+#: src/pages/rules/index.jsx:104
+#: src/components/Header/index.jsx:56
+msgid "RULES"
+msgstr "RULES"
+
+#: src/pages/player/index.jsx:364
+msgid "save"
+msgstr "save"
+
+#: src/pages/player/index.jsx:291
+msgid "screenshots"
+msgstr "screenshots"
+
+#: src/pages/history/state.js:144
+#: src/pages/bracket/state.js:144
+#~ msgid "Semifinals"
+#~ msgstr "Semifinals"
+
+#: src/components/Header/index.jsx:92
+msgid "SETTINGS"
+msgstr "SETTINGS"
+
+#: src/pages/rules/index.jsx:114
+msgid "The first player in a pair is determined by a bot in Discord with the command \"/coin\" in the voice channel chat;"
+msgstr "The first player in a pair is determined by a bot in Discord with the command \"/coin\" in the voice channel chat;"
+
+#: src/pages/rules/index.jsx:120
+msgid "The first player starts screen sharing in the designated Discord voice channel and initiates the round. The organizer will provide instructions;"
+msgstr "The first player starts screen sharing in the designated Discord voice channel and initiates the round. The organizer will provide instructions;"
+
+#: src/pages/history/index.jsx:224
+msgid "The game has not been played yet"
+msgstr "The game has not been played yet"
+
+#: src/pages/rules/index.jsx:132
+msgid "The third hologram is chosen randomly from the remaining two and played in case of a 1-1 score;"
+msgstr "The third hologram is chosen randomly from the remaining two and played in case of a 1-1 score;"
+
+#: src/pages/rules/index.jsx:36
+msgid "The tournament is held in the Tempest Cup Discord server. Minimum stream quality: 720p"
+msgstr "The tournament is held in the Tempest Cup Discord server. Minimum stream quality: 720p"
+
+#: src/pages/rules/index.jsx:164
+msgid "The winner is the player who defeats the hologram twice in the shortest time;"
+msgstr "The winner is the player who defeats the hologram twice in the shortest time;"
+
+#: src/pages/history/state.js:192
+#: src/pages/bracket/state.js:194
+#~ msgid "Third Place"
+#~ msgstr "Third Place"
+
+#: src/pages/participate/index.jsx:109
+msgid "Too many attempts. Try again in {remainingTime} seconds"
+msgstr "Too many attempts. Try again in {remainingTime} seconds"
+
+#: src/components/Header/index.jsx:59
+msgid "TOURNAMENT BRACKET"
+msgstr "TOURNAMENT BRACKET"
+
+#: src/pages/rules/index.jsx:33
+msgid "Union level (UL) 70+."
+msgstr "Union level (UL) 70+."
+
+#: src/pages/rules/index.jsx:64
+msgid "Upload screenshots from the game to Google form, combining them into one file in PDF format (screenshots of all Echo sets from presets on MainDD and Sub DD)"
+msgstr "Upload screenshots from the game to Google form, combining them into one file in PDF format (screenshots of all Echo sets from presets on MainDD and Sub DD)"
+
+#: src/pages/bracket/index.jsx:85
+msgid "View Tournament History"
+msgstr "View Tournament History"
+
+#: src/pages/player/index.jsx:370
+msgid "WEAPONS"
+msgstr "WEAPONS"
+
+#: src/pages/not-auth/index.jsx:16
+msgid "You don't have permissions for this page"
+msgstr "You don't have permissions for this page"

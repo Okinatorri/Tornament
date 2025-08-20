@@ -1,0 +1,14 @@
+.input {
+    height: 35px;
+    width: 100%;
+    line-height: 1.2857142857em;
+    // border-radius: 4px;
+    border-bottom: 2px solid var(--purple-color);
+    padding: 8px;
+    font-size: 14px;
+    background: none;
+
+    &:focus {
+        // background-color: rgba(0, 0, 0, 0.7);
+    }
+}

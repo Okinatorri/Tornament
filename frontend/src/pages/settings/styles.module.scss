@@ -1,0 +1,163 @@
+.settingsContainer {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+}
+
+.settingsContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../images/bg/about.png");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(2px);
+}
+
+.settingsContent {
+    height: 100%;
+    padding: 20px;
+
+    overflow: hidden;
+
+    display: flex;
+    gap: 20px;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: space-between;
+
+    z-index: 1;
+
+    .active {
+        color: green;
+        font-weight: bold;
+    }
+
+    .inactive {
+        color: #666;
+    }
+
+    .error {
+        color: red;
+        margin-bottom: 15px;
+    }
+
+    button {
+        padding: 8px 15px;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        &:not(:disabled) {
+            border: 1px solid #45a049;
+        }
+
+        &:hover:not(:disabled) {
+            background-color: #45a049;
+        }
+
+        &.deactivateBtn {
+            border: 1px solid #f44336;
+        }
+
+        &.deactivateBtn:hover:not(:disabled) {
+            background-color: #f44336;
+        }
+    }
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.tournament {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gamePairsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.addPairSelect {
+    display: flex;
+    gap: 10px;
+}
+
+.tournamentForm,
+.tournamentList,
+.pairsList,
+.addPairForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 18px;
+    border-radius: 8px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--blue-color);
+
+    overflow: auto;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="date"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+}
+
+.tournamentTable {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    th {
+        background-color: #eee;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}

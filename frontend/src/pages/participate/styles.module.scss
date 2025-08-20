@@ -1,0 +1,72 @@
+.rulesContainer {
+    height: 100vh; // flex: 1
+    background-image: url("../../images/bg/participate.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.participateContent {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 80px 20px;
+}
+
+.participateTitleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.participateTitle {
+    font-size: 73px;
+    text-shadow: var(--purple-shadow-1px);
+}
+
+.participateLoginForm {
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+
+    padding: 0px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--blue-color);
+    box-shadow: var(--purple-shadow-1px);
+}
+
+.errorLoginBlock {
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--blue-color);
+    box-shadow: var(--purple-shadow-1px);
+
+    color: red;
+}

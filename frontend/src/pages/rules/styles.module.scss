@@ -1,0 +1,109 @@
+.rulesContainer {
+    height: 100vh; // flex: 1
+    background-image: url("../../images/bg/rules.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.rulesContent {
+    height: 100%;
+
+    display: flex;
+    gap: 65px;
+    justify-content: space-between;
+    padding: 30px 80px 20px;
+}
+
+.rulesTable {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: calc(100% - 50px);
+    min-width: 200px;
+
+    padding: 5px;
+
+    border: 1px solid var(--blue-color);
+    box-shadow: var(--purple-shadow-1px);
+
+    & > p,
+    h3,
+    ul,
+    li,
+    a {
+        font-family: "AG";
+        font-size: 16px;
+
+        @media (min-width: 1200px) {
+            font-size: 13px;
+        }
+
+        @media (min-width: 1300px) {
+            font-size: 14px;
+        }
+
+        @media (min-width: 1500px) {
+            font-size: 15px;
+        }
+
+        @media (min-width: 1550px) {
+            font-size: 16px;
+        }
+
+        @media (min-width: 1650px) {
+            font-size: 17px;
+        }
+
+        @media (min-width: 1920px) {
+            font-size: 19px;
+        }
+
+        @media (min-width: 2560px) {
+            font-size: 22px;
+        }
+
+        @media (min-width: 3000px) {
+            font-size: 24px;
+        }
+
+        @media (min-width: 3500px) {
+            font-size: 27px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 10px;
+    }
+
+    li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 3px;
+        line-height: 1.4;
+
+        &::before {
+            content: "•";
+            color: #ffd700;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+    }
+
+    ul ul {
+        padding-left: 15px;
+
+        li::before {
+            color: #ffa500;
+            font-size: 20px;
+        }
+    }
+}
+
+.rulesBtn {
+    min-width: 244px;
+}

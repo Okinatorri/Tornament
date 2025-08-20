@@ -1,0 +1,101 @@
+.appHeader {
+    min-height: 80px;
+    padding: 10px 20px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+
+    .active {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: currentColor;
+        }
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 33px;
+    font-family: "AG";
+    line-height: 0.9;
+    text-align: center;
+}
+
+.links {
+    font-family: "AG";
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+
+    button {
+        &:hover {
+            color: #4dabf7;
+        }
+    }
+}
+
+.infoContainer {
+    font-family: "Impact";
+    font-size: 24px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .icon {
+        font-size: 25px;
+        color: inherit;
+    }
+}
+
+.logoutButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+
+    &:hover {
+        color: #ff6b6b;
+    }
+}
+
+.languageSwitcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    .langButton {
+        padding: 2px 0px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        font-size: 0.9rem;
+        color: inherit;
+
+        &:hover {
+            color: #4dabf7;
+        }
+    }
+
+    .langSeparator {
+        opacity: 0.5;
+    }
+}

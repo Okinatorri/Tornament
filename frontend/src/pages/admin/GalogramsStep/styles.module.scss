@@ -1,0 +1,166 @@
+.galogramsContent {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 100px 20px 40px 100px;
+    gap: 150px;
+    position: relative;
+}
+
+.videoContent {
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.element {
+    position: absolute;
+    left: 0;
+    transform: skewX(10deg);
+
+    width: 50px;
+    height: 50px;
+}
+
+.rulesBtn {
+    min-width: 244px;
+    font-size: 20px;
+}
+
+.nextButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 28px;
+    width: 200px;
+}
+
+.hDivider {
+    border-bottom: 2px solid var(--purple-color);
+    width: 100%;
+}
+
+.videoContainer {
+    position: relative;
+    height: 100%;
+    width: 150px;
+    flex-shrink: 0;
+    transform: skewX(-10deg);
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: var(--purple-shadow-2px);
+    transition: all 0.3s ease;
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.5);
+        transition: filter 0.3s ease;
+    }
+
+    &.choosedSelected {
+        height: calc(100% + 20px);
+        width: 170px;
+
+        video {
+            filter: brightness(1.2);
+        }
+    }
+
+    &.bannedSelected {
+        height: calc(100% - 10px);
+        width: 140px;
+
+        video {
+            filter: brightness(1) brightness(0.2) sepia(1) hue-rotate(-150deg) opacity(1);
+        }
+    }
+}
+
+.actionButton {
+    position: relative;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.playersSelection {
+    display: flex;
+}
+
+.bans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+    z-index: 1;
+}
+
+.banChars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    max-width: 800px;
+}
+
+.names {
+    height: 72px;
+
+    position: relative;
+
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border: 1px solid var(--blue-color);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: var(--purple-shadow-1px);
+
+    text-shadow: var(--red-shadow-1px);
+
+    & > div {
+        font-size: 28px;
+    }
+
+    & > div > div > input {
+        text-shadow: var(--red-shadow-1px);
+        border: none;
+    }
+}
+
+.vDivider {
+    border-left: 2px solid var(--purple-color);
+    box-shadow: var(--purple-shadow-1px);
+    height: 100%;
+}

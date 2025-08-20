@@ -1,0 +1,193 @@
+/* Reset and base styles  */
+@font-face {
+    font-family: "Batman";
+    src: url("../fonts/batmanforeveralternatecyr.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/Impact.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/RubikVariableFont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AG";
+    src: url("../fonts/AGaramondProRegular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Colus";
+    src: url("../fonts/Colus-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: "Batman", "AG", "Colus", sans-serif;
+    font-size: 14px;
+
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+video::-webkit-media-controls-picture-in-picture-button {
+    display: none !important;
+}
+
+:root {
+    --blue-color: #3f20f9;
+    --purple-color: #8400ff;
+    --gold-color: #dbb70d;
+    --red-color: #ff0000;
+
+    --purple-shadow-1px: 0 0 3px #8400ff, 0 0 10px #8400ff;
+    --purple-shadow-1\5px: 0 0 15px #8400ff;
+    --purple-shadow-2px: 0 0 6px 1px #8400ff, 0 0 11px 2px #3f20f9;
+
+    --blue-shadow-1px: 0 0 3px #3f20f9, 0 0 10px #3f20f9;
+    --blue-shadow-1\5px: 0 0 15px #3f20f9;
+    --blue-shadow-2px: 0 0 20px #3f20f9;
+
+    --gold-shadow-1px: 0 0 3px #dbb70d, 0 0 10px #dbb70d;
+    --gold-shadow-1\5px: 0 0 15px #dbb70d;
+    --gold-shadow-2px: 0 0 0 1px #dbb70d, 0 0 10px 2px #dbb70d;
+
+    --red-shadow-1px: 0 0 3px #ff0000, 0 0 10px #ff0000;
+    --red-shadow-1\5px: 0 0 20px #ff0000;
+    --red-shadow-2px: 0 0 0 1px #ff0000, 0 0 10px 2px #ff0000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ol li,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+/* Общие стили для скроллбаров */
+* {
+    scrollbar-color: #333 #111; /* thumb и track */
+    scrollbar-width: thin; /* для Firefox */
+}
+
+/* WebKit-специфичные стили */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 4px;
+    border: 2px solid #111; /* чтобы выглядело встроенно */
+}

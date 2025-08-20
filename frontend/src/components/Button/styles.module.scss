@@ -1,0 +1,24 @@
+.button {
+    min-height: 35px;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0px 5px 5px 8px;
+
+    font-size: 40px;
+
+    color: #fff;
+    cursor: pointer;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    text-shadow: var(--purple-shadow-1px);
+    box-shadow: var(--purple-shadow-2px);
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
