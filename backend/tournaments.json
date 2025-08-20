@@ -1,0 +1,14 @@
+[
+    {
+        "tournamentName": "test",
+        "startDate": "2025-01-02",
+        "endDate": "2025-03-02",
+        "active": true
+    },
+    {
+        "tournamentName": "bad tour",
+        "startDate": "2025-01-02",
+        "endDate": "2025-03-02",
+        "active": false
+    }
+]

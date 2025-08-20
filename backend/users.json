@@ -1,0 +1,26 @@
+[
+    {
+        "username": "user1",
+        "password": "1",
+        "display_name": "Player 1",
+        "status": "player"
+    },
+    {
+        "username": "user2",
+        "password": "1",
+        "display_name": "Player 2",
+        "status": "player"
+    },
+    {
+        "username": "-",
+        "password": "1",
+        "display_name": "-",
+        "status": "player"
+    },
+    {
+        "username": "admin",
+        "password": "1",
+        "display_name": "Administrator",
+        "status": "admin"
+    }
+]

@@ -1,0 +1,262 @@
+[
+    {
+        "name": "Augment",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Amity_Accord",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Autumntra",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Cadenza",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Call_of_the_Abyss",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Celestial_Spiral",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Comet_Flare",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Commando_of_Conviction",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Discord",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Endless_Collapse",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Fables_of_Wisdom",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Fusion_Accretion",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Gauntlets_21D",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Helios_Cleaver",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Hollow_Mirage",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Jinzhou_Keeper",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Legend_of_Drunken_Hero",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Lumingloss",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Marcato",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Meditations_on_Mercy",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Oceans_Gift",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Overture",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Rectifier",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Relativistic_Jet",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Romance_in_Farewell",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Somnoire_Anchor",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Stonard",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Sword_18",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Undying_Flame",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Variation",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Waltz_in_Masquerade",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Waning_Redshift",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Abyss_Surges",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Ages_of_Harvest",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Blazing_Brilliance",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Bloodpacts_Pledge",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Cosmic_Ripples",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Emerald_of_Genesis",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Luminous_Hymn",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Lustrous_Razor",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Red_Spring",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Rime_Draped_Sprouts",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Static_Mist",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Stringmaster",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "The_Last_Dance",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Tragicomedy",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Unflickering_Valor",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Verdant_Summit",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Veritys_Handle",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Whispers_of_Sirens",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Blazing_Justice",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Woodland_Aria",
+        "rarity": 5,
+        "standart": false
+    }
+]

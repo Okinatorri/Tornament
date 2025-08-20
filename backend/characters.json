@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Carlotta",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Aalto",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Baizhi",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Brant",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Calcharo",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Camellya",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Changli",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Chixia",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Ciaccona",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Danjin",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Encore",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Cantarella",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Jianxin",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Jinhsi",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Jiyan",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Lingyang",
+        "rarity": 5,
+        "standart": true
+    },
+    {
+        "name": "Lumi",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Mortefi",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Phoebe",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Roccia",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Sanhua",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Shorekeeper",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Taoqi",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Verina",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Xiangli_Yao",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Yangyang",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Yinlin",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Youhu",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Yuanwu",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Zani",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Zhezhi",
+        "rarity": 5,
+        "standart": false
+    },
+    {
+        "name": "Rover_Aero",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Rover_Havok",
+        "rarity": 4,
+        "standart": false
+    },
+    {
+        "name": "Rover_Spectro",
+        "rarity": 4,
+        "standart": false
+    }
+]
